@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>rwitular-landingpage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+</head>
+
+<body>
+  <section>
+    <div class="header">
+      <div class="greetings">
+        <h1>HALO SELAMAT DATANG!</h1>
+      </div>
+      <div class="down">
+        <p>
+          kenali saya<br> lebih dekat
+        </p>
+        <a href="#introduction">
+          <i data-feather="arrow-down-circle" class="icon"></i>
+        </a>
+        <img>
+      </div>
+      <svg id="wave" viewBox="0 0 1440 419" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(0, 155, 235, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(0, 155, 235, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+          d="M0,126L48,154C96,182,192,238,288,224C384,210,480,126,576,105C672,84,768,126,864,154C960,182,1056,196,1152,210C1248,224,1344,238,1440,203C1536,168,1632,84,1728,84C1824,84,1920,168,2016,189C2112,210,2208,168,2304,182C2400,196,2496,266,2592,301C2688,336,2784,336,2880,287C2976,238,3072,140,3168,119C3264,98,3360,154,3456,196C3552,238,3648,266,3744,266C3840,266,3936,238,4032,189C4128,140,4224,70,4320,98C4416,126,4512,252,4608,301C4704,350,4800,322,4896,266C4992,210,5088,126,5184,126C5280,126,5376,210,5472,238C5568,266,5664,238,5760,189C5856,140,5952,70,6048,98C6144,126,6240,252,6336,252C6432,252,6528,126,6624,77C6720,28,6816,56,6864,70L6912,84L6912,420L6864,420C6816,420,6720,420,6624,420C6528,420,6432,420,6336,420C6240,420,6144,420,6048,420C5952,420,5856,420,5760,420C5664,420,5568,420,5472,420C5376,420,5280,420,5184,420C5088,420,4992,420,4896,420C4800,420,4704,420,4608,420C4512,420,4416,420,4320,420C4224,420,4128,420,4032,420C3936,420,3840,420,3744,420C3648,420,3552,420,3456,420C3360,420,3264,420,3168,420C3072,420,2976,420,2880,420C2784,420,2688,420,2592,420C2496,420,2400,420,2304,420C2208,420,2112,420,2016,420C1920,420,1824,420,1728,420C1632,420,1536,420,1440,420C1344,420,1248,420,1152,420C1056,420,960,420,864,420C768,420,672,420,576,420C480,420,384,420,288,420C192,420,96,420,48,420L0,420Z">
+        </path>
+      </svg>
+    </div>
+  </section>
+
+  <section id="introduction">
+    <div class="introduction">
+      <div class="intro-container">
+        <div class="intro-picture">
+          <img src="assets/wtlr.png">
+          <i data-feather="arrow-down-circle" class="icon2" onclick="randomQuotes()"></i>
+          <div class="quotes">
+            <p id="text"></p>
+          </div>
+        </div>
+        <div class="intro-text">
+          <div class="intro-1">
+            <h3>Nama Saya</h3>
+            <h2>Rahmat Witular</h2>
+          </div>
+          <div class="intro-2">
+            <p>
+              Saya adalah seorang pelajar SMK yang menempuh jurusan RPL, dan saat ini Saya
+              duduk di kelas 11.
+            </p>
+          </div>
+          <div class="intro-3">
+            <p>
+              Saya tertarik dengan hal-hal yang berkaitan dengan desain dan multimedia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 420" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(0, 154.887, 234.829, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(0, 168.191, 255, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="#fff"
+          d="M0,126L26.7,154C53.3,182,107,238,160,224C213.3,210,267,126,320,105C373.3,84,427,126,480,154C533.3,182,587,196,640,210C693.3,224,747,238,800,203C853.3,168,907,84,960,84C1013.3,84,1067,168,1120,189C1173.3,210,1227,168,1280,182C1333.3,196,1387,266,1440,301C1493.3,336,1547,336,1600,287C1653.3,238,1707,140,1760,119C1813.3,98,1867,154,1920,196C1973.3,238,2027,266,2080,266C2133.3,266,2187,238,2240,189C2293.3,140,2347,70,2400,98C2453.3,126,2507,252,2560,301C2613.3,350,2667,322,2720,266C2773.3,210,2827,126,2880,126C2933.3,126,2987,210,3040,238C3093.3,266,3147,238,3200,189C3253.3,140,3307,70,3360,98C3413.3,126,3467,252,3520,252C3573.3,252,3627,126,3680,77C3733.3,28,3787,56,3813,70L3840,84L3840,420L3813.3,420C3786.7,420,3733,420,3680,420C3626.7,420,3573,420,3520,420C3466.7,420,3413,420,3360,420C3306.7,420,3253,420,3200,420C3146.7,420,3093,420,3040,420C2986.7,420,2933,420,2880,420C2826.7,420,2773,420,2720,420C2666.7,420,2613,420,2560,420C2506.7,420,2453,420,2400,420C2346.7,420,2293,420,2240,420C2186.7,420,2133,420,2080,420C2026.7,420,1973,420,1920,420C1866.7,420,1813,420,1760,420C1706.7,420,1653,420,1600,420C1546.7,420,1493,420,1440,420C1386.7,420,1333,420,1280,420C1226.7,420,1173,420,1120,420C1066.7,420,1013,420,960,420C906.7,420,853,420,800,420C746.7,420,693,420,640,420C586.7,420,533,420,480,420C426.7,420,373,420,320,420C266.7,420,213,420,160,420C106.7,420,53,420,27,420L0,420Z">
+        </path>
+      </svg>
+    </div>
+  </section>
+
+  <section>
+    <div class="my-works">
+      <h2>Berikut ini adalah beberapa desain yang saya buat</h2>
+      <div class="works-picture">
+        <div class="work-1">
+          <img>
+          <img>
+        </div>
+        <div class="work-2">
+          <img>
+          <img>
+        </div>
+        <div class="work-3">
+          <img>
+          <img>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    feather.replace();
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>

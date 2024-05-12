@@ -1,0 +1,165 @@
+@import url('https://fonts.cdnfonts.com/css/konigsberg');
+@import url('https://fonts.cdnfonts.com/css/playpen-sans');
+
+
+
+:root {
+  --blue: #192855;
+  --light-blue: #009BEB;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Königsberg', sans-serif;
+}
+
+
+/* HEADER */
+.header {
+  background-color: var(--blue);
+}
+
+.greetings h1 {
+  color: white;
+  font-size: 3.5rem;
+  margin-top: 0;
+  padding: 15% 12% 10%;
+}
+
+.down{
+  display: grid;
+  place-content: center;
+  padding: 0 12% 14%;
+}
+
+.down p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.down a {
+  text-align: center;
+}
+
+.icon {
+  color: white;
+  display: inline;
+  width: 3rem;
+  height: 3rem;
+}
+
+#wave {
+  display: block;
+}
+/* HEADER */
+
+
+/* INTRODUCTION */
+.introduction {
+  background-color: var(--light-blue);
+}
+
+.intro-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.intro-picture img {
+  display: grid;
+  grid-template-columns: 50% 20%;
+  width: 100%;
+}
+
+.quotes {
+  background-color: var(--blue);
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 20%;
+  margin-top: -0.8rem;
+  margin-bottom: 2rem;
+}
+
+.quotes p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.icon2 {
+  color: white;
+  float: left;
+  margin-top: -2.5rem;
+  width: 3rem;
+  height: 3rem;
+  transform: rotate(-45deg);
+} 
+
+.intro-text {
+  display: grid;
+  grid-template-rows: 35% 35% 35%;
+}
+
+.intro-1 {
+  padding-right: 1%;
+}
+
+.intro-1 h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: -2rem;
+}
+
+.intro-1 h2  {
+  font-size: 2.5rem;
+  line-height: 0.85;
+  color: var(--blue);
+}
+
+.intro-2 {
+  text-align: left;
+  margin-top: -2rem;
+  font-size: 0.8rem;
+  color: white;
+  font-family: "Playpen Sans", sans-serif;
+}
+
+.intro-3 {
+  padding-right: 5%;
+  margin-top: -5rem;
+  text-align: right;
+  text-indent: 4rem;
+  font-size: 0.8rem;
+  color: white;
+  font-family: "Playpen Sans", sans-serif;
+}
+
+
+#wave2 {
+  display: block;
+}
+/* INTRODUCTION */
+
+/* GAWEAN */
+.my-works {
+  background-color: white;
+}
+/* GAWEAN */
+
+/* DESKTOP SIZE */
+@media screen and (min-width: 768px) {
+  .header {
+    background-color: red;
+  }
+}
+/* DESKTOP SIZE */
